@@ -3,7 +3,7 @@ import { Switch } from "@/components/ui/switch"; // Импорт вашего с
 export const MyForm = () => {
   return (
     <Switch colorPalette="green">
-      Включить уведомления
+      Включить уведомления сейчас
     </Switch>
   );
 };
