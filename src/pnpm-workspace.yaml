@@ -1,0 +1,13 @@
+# Обязательное поле для pnpm-workspace (указывает искать пакеты в текущей папке)
+packages:
+  - "."
+
+# Перенесенные настройки из package.json (ваша картинка)
+overrides:
+  lodash: "^4.17.21"
+
+ignoredBuiltDependencies:
+  - "*"
+
+# Перенесенная настройка из .npmrc
+packageImportMethod: "copy"
