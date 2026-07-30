@@ -41,3 +41,6 @@ dist-ssr
 # OS files
 .DS_Store
 Thumbs.db
+# Кэш сборщиков и компиляторов
+.vite/
+*.tsbuildinfo
