@@ -1,19 +1,15 @@
-import {MyForm} from "./MyForm"
-import {NotificationSettings} from "./NotificationSettings"
-import {SimpleSlider} from "@/SimpleSlider.tsx";
-import {RangeSliderExample} from "@/RangeSliderExample.tsx";
-import {DiscreteSlider} from "@/DiscreteSlider.tsx";
 
-function App() {
-  return (
-    <>
-    <MyForm />
-      <NotificationSettings />
-      <SimpleSlider />
-      <RangeSliderExample />
-      <DiscreteSlider />
-        </>
-  );
+
+const title: string = 'React'
+function App(){
+    return (
+   <div>
+     <h1>Hello React</h1>
+     <h2>{title}</h2>
+     {/*<Header />*/}
+     {/*<LandingBody />*/}
+     {/*<Footer />*/}
+   </div>
+  )
 }
-
-export default App;
+export default App
