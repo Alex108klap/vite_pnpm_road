@@ -1,12 +1,14 @@
-const title: string = 'React'
+const welcome = { greeting:'Hey', title: 'React',}; // объект JS
 
-function App() {
+export const App = () => {
+  
   return (
     <div>
-      <h1>Hello React</h1>
-      <h2>{title}</h2>
+      <h1>{welcome.greeting} {welcome.title}</h1>
+      <label htmlFor="search">Search: </label>
+      <input id="search" type="text" />
     </div>
-  )
+  );
 }
 
-export default App
+
